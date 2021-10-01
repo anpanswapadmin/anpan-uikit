@@ -1,4 +1,4 @@
-# 🥞 Anpan UIkit
+# Anpan UIkit
 
 [![Version](https://img.shields.io/npm/v/@anpanswap-libs/uikit)](https://www.npmjs.com/package/@anpanswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@anpanswap-libs/uikit)](https://www.npmjs.com/package/@anpanswap-libs/uikit)
 
@@ -6,7 +6,7 @@ Anpan UIkit is a set of React components and hooks used to build pages on Anpan'
 
 ## Install
 
-`yarn add @anpanswap-libs/uikit`
+`yarn add @anpanswap/uikit`
 
 ## Setup
 
@@ -16,7 +16,7 @@ Before using Anpan UIkit, you need to provide the theme file to styled-component
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@anpanswap-libs/uikit'
+import { light, dark } from '@anpanswap/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -26,7 +26,7 @@ import { light, dark } from '@anpanswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@anpanswap-libs/uikit'
+import { ResetCSS } from '@anpanswap/uikit'
 ...
 <ResetCSS />
 ```
@@ -34,7 +34,3 @@ import { ResetCSS } from '@anpanswap-libs/uikit'
 ### Types
 
 This project is built with Typescript and export all the relevant types.
-
-## How to use the UIkit
-
-If you want to use components from the UIkit, check the [Storybook documentation](https://anpanswap.github.io/anpan-uikit/)
